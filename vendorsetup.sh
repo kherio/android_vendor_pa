@@ -28,7 +28,7 @@ add_lunch_combo pa_shamu-userdebug
 
 #LG
 #V30
-add_lunch_combo pa_joan-userdebug
+add_lunch_combo pa_h930-userdebug
 
 # SONY OpenDevices
 # Loire
