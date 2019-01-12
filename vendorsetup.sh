@@ -26,6 +26,10 @@ add_lunch_combo pa_marlin-userdebug
 add_lunch_combo pa_sailfish-userdebug
 add_lunch_combo pa_shamu-userdebug
 
+#LG
+#V30
+add_lunch_combo pa_joan-userdebug
+
 # SONY OpenDevices
 # Loire
 add_lunch_combo pa_kugo-userdebug
