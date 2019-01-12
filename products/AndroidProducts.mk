@@ -32,6 +32,11 @@
     $(LOCAL_DIR)/gts210ltexx/pa_gts210ltexx.mk \
     $(LOCAL_DIR)/gts210wifi/pa_gts210wifi.mk
 
+# LG
+# V30
+    PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/joan/pa_joan.mk
+    
 # AOSP
     PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/angler/pa_angler.mk \
