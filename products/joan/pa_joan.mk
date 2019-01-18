@@ -21,14 +21,14 @@ TARGET_EXCLUDE_QCOM_SEPOLICY := true
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, device/lge/h930/full_h930.mk)
 
+# Inherit AOSP device configuration
+$(call inherit-product, device/lge/h930/h930.mk)
+
 # Include ParanoidAndroid BootAnimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Generic CAF packages
 include device/qcom/common/common.mk
-
-# Inherit AOSP device configuration
-$(call inherit-product, device/lge/h930/h930.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += devide/lge/h930/overlay
