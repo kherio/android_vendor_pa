@@ -35,7 +35,7 @@
 # LG
 # V30
     PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/joan/pa_joan.mk
+    $(LOCAL_DIR)/h930/pa_h930.mk
     
 # AOSP
     PRODUCT_MAKEFILES += \
