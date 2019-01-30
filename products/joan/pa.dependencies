@@ -1,15 +1,15 @@
 [
   {
     "remote":	     "github",
-    "repository":    "SGCMarkus/android_device_lge_joan-common",
+    "repository":    "kherio/android_device_lge_joan-common",
     "target_path":   "device/lge/joan-common",
-    "revision":	     "du-p9x"
+    "revision":	     "common-pie"
   },
   {
     "remote":	     "github",
-    "repository":    "SGCMarkus/android_device_lge_h930",
+    "repository":    "kherio/android_device_lge_h930",
     "target_path":   "device/lge/h930",
-    "revision":	    "du-p9x"
+    "revision":	    "potato"
   },
   {
     "remote":	    "github",
